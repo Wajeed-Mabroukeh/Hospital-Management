@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="877.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI">
+   <children>
+      <Label layoutX="715.0" layoutY="-2.0" prefHeight="28.0" prefWidth="155.0" text="Search Patient" underline="true">
+         <font>
+            <Font name="Comic Sans MS Italic" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="742.0" layoutY="351.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="80.0" style="-fx-background-radius: 10;" text="Search">
+         <font>
+            <Font name="Century Schoolbook" size="16.0" />
+         </font>
+      </Button>
+      <TableView layoutX="-2.0" layoutY="-1.0" prefHeight="459.0" prefWidth="694.0" tableMenuButtonVisible="true">
+        <columns>
+          <TableColumn prefWidth="75.0" text="First Name" />
+          <TableColumn prefWidth="83.0" text="Last Name" />
+            <TableColumn prefWidth="77.0" text="Phone " />
+            <TableColumn prefWidth="73.0" text="SSN" />
+            <TableColumn prefWidth="74.0" text="Doctor ID" />
+            <TableColumn prefWidth="78.0" text="Nurse ID" />
+            <TableColumn prefWidth="82.0" text="Sciectific N" />
+            <TableColumn prefWidth="66.0" text="Medic ID" />
+            <TableColumn prefWidth="85.0" text="BirthDate" />
+        </columns>
+      </TableView>
+      <RadioButton fx:id="firstR" layoutX="706.0" layoutY="63.0" mnemonicParsing="false" onMousePressed="#searchP" text="First Name" />
+      <RadioButton fx:id="lastR" layoutX="783.0" layoutY="102.0" mnemonicParsing="false" onMousePressed="#searchP" text="Last Name" />
+      <RadioButton fx:id="phone" layoutX="706.0" layoutY="137.0" mnemonicParsing="false" onMousePressed="#searchP" text="Phone " />
+      <RadioButton fx:id="ssn" layoutX="787.0" layoutY="169.0" mnemonicParsing="false" onMousePressed="#searchP" text="SSN" />
+      <RadioButton fx:id="doctor_idR" layoutX="709.0" layoutY="203.0" mnemonicParsing="false" onMousePressed="#searchP" text="Doctor ID" />
+      <RadioButton fx:id="nurseR" layoutX="787.0" layoutY="230.0" mnemonicParsing="false" onMousePressed="#searchP" text="Nurse ID" />
+      <RadioButton fx:id="sciectific" layoutX="715.0" layoutY="265.0" mnemonicParsing="false" onMousePressed="#searchP" text="Sciectific N" />
+      <RadioButton fx:id="medic" layoutX="787.0" layoutY="299.0" mnemonicParsing="false" onMousePressed="#searchP" text="Medic ID" />
+   </children>
+</AnchorPane>

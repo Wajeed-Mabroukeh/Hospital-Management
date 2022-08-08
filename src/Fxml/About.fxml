@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea editable="false" layoutY="237.0" prefHeight="211.0" prefWidth="670.0" text="A hospital is a health care institution providing patient treatment with specialized medical and nursing staff and &#10;medical equipment.The best-known type of hospital is the general hospital,which typically has an emergency &#10;department to treat urgent health problems ranging from fire and accident victims to a sudden illness.&#10; A district hospital typically is the major health care facility in its region, with many beds for intensive care and&#10; additional beds for patients who need long-term care. Specialized hospitals include trauma centers,  &#10;rehabilitation hospitals, children's hospitals,seniors' (geriatric) hospitals, and hospitals for dealing with specific &#10;medical needs such as psychiatric treatment (see psychiatric hospital) and certain disease categories. &#10;Specialized hospitals can help reduce health care costs compared to general hospitals.Hospitals are classified as&#10; general, &#10;specialty, or government depending on the sources of income received.&#10;">
+         <font>
+            <Font name="Californian FB" size="14.0" />
+         </font>
+      </TextArea>
+      <ImageView fitHeight="267.0" fitWidth="670.0" layoutX="-1.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/about+usss.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

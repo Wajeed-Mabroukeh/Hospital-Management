@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="304.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI">
+   <children>
+      <Label layoutX="35.0" layoutY="23.0" prefHeight="27.0" prefWidth="171.0" text="Edit Department " textFill="#c94949" textOverrun="CLIP">
+         <font>
+            <Font name="Footlight MT Light" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="146.0" prefHeight="26.0" prefWidth="88.0" text="Depart Name">
+         <font>
+            <Font name="Ebrima" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="210.0" prefHeight="26.0" prefWidth="88.0" text="Depart ID">
+         <font>
+            <Font name="Century" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="DepartNE" layoutX="97.0" layoutY="143.0" prefHeight="32.0" prefWidth="171.0" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Depart_IDE" layoutX="97.0" layoutY="207.0" prefHeight="32.0" prefWidth="171.0" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="26.0" fitWidth="48.0" focusTraversable="true" layoutX="9.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" smooth="false" style="-fx-image: #0598ff;">
+         <image>
+            <Image url="@../Image/add.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="358.0" fitWidth="414.0" focusTraversable="true" layoutX="340.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" smooth="false" style="-fx-image: #0598ff;">
+         <image>
+            <Image url="@../Image/it-department.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="121.0" layoutY="264.0" mnemonicParsing="false" onMousePressed="#UpdateDDE" prefHeight="25.0" prefWidth="64.0" text="Edit" />
+      <Button layoutX="212.0" layoutY="264.0" mnemonicParsing="false" onMousePressed="#ViewDDE" prefHeight="25.0" prefWidth="64.0" text="View" />
+   </children>
+</AnchorPane>

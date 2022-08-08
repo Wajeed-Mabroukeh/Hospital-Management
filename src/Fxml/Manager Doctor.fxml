@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Manager" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368.0" prefWidth="772.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI">
+   <children>
+      <Label layoutX="35.0" layoutY="23.0" prefHeight="26.0" prefWidth="120.0" text="My Profile" textFill="#c94949" textOverrun="CLIP">
+         <font>
+            <Font name="Footlight MT Light" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="68.0" prefHeight="26.0" prefWidth="75.0" text="First Name">
+         <font>
+            <Font name="Ebrima" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="272.0" layoutY="64.0" prefHeight="26.0" prefWidth="88.0" text="Last Name">
+         <font>
+            <Font name="Century" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="FirstNM" editable="false" layoutX="89.0" layoutY="62.0" prefHeight="32.0" prefWidth="161.0" style="-fx-background-color: #ffffff;" text="Ahmad">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="LastN" editable="false" layoutX="368.0" layoutY="62.0" prefHeight="32.0" prefWidth="171.0" style="-fx-background-color: #ffffff;" text="Aslan">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="14.0" layoutY="129.0" prefHeight="26.0" prefWidth="75.0" text="Email">
+         <font>
+            <Font name="Ebrima" size="13.0" />
+         </font>
+      </Label>
+      <TextField editable="false" layoutX="73.0" layoutY="126.0" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #ffffff;" text="Ahmad.Aslan@gmail.com">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="280.0" layoutY="129.0" prefHeight="26.0" prefWidth="88.0" text="SSN">
+         <font>
+            <Font name="Century" size="12.0" />
+         </font>
+      </Label>
+      <TextField editable="false" layoutX="368.0" layoutY="126.0" prefHeight="32.0" prefWidth="171.0" style="-fx-background-color: #ffffff;" text="114775533">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="14.0" layoutY="192.0" prefHeight="26.0" prefWidth="75.0" text="Phone ">
+         <font>
+            <Font name="Ebrima" size="13.0" />
+         </font>
+      </Label>
+      <TextField editable="false" layoutX="89.0" layoutY="186.0" prefHeight="32.0" prefWidth="161.0" style="-fx-background-color: #ffffff;" text="0596547811">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="280.0" layoutY="189.0" prefHeight="26.0" prefWidth="88.0" text="Doctor ID">
+         <font>
+            <Font name="Century" size="12.0" />
+         </font>
+      </Label>
+      <TextField editable="false" layoutX="368.0" layoutY="186.0" prefHeight="32.0" prefWidth="171.0" style="-fx-background-color: #ffffff;" text="11547412">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="14.0" layoutY="250.0" prefHeight="26.0" prefWidth="75.0" text="Salary">
+         <font>
+            <Font name="Ebrima" size="13.0" />
+         </font>
+      </Label>
+      <TextField editable="false" layoutX="89.0" layoutY="247.0" prefHeight="32.0" prefWidth="161.0" style="-fx-background-color: #ffffff;" text="3500$">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="280.0" layoutY="250.0" prefHeight="26.0" prefWidth="88.0" text="DepartmentID">
+         <font>
+            <Font name="Century" size="12.0" />
+         </font>
+      </Label>
+      <TextField editable="false" layoutX="368.0" layoutY="247.0" prefHeight="32.0" prefWidth="171.0" style="-fx-background-color: #ffffff;" text="17774">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="14.0" layoutY="304.0" prefHeight="26.0" prefWidth="75.0" text="BirthDate">
+         <font>
+            <Font name="Ebrima" size="13.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Male" layoutX="350.0" layoutY="322.0" mnemonicParsing="false" onMousePressed="#GrupeU" selected="true" text="Male" />
+      <ImageView fitHeight="193.0" fitWidth="241.0" focusTraversable="true" layoutX="553.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true" smooth="false" style="-fx-image: #0598ff;">
+         <image>
+            <Image url="@../Image/doctor-icon-avatar-white_136162-58.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="48.0" focusTraversable="true" layoutX="9.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" smooth="false" style="-fx-image: #0598ff;">
+         <image>
+            <Image url="@../Image/add.png" />
+         </image>
+      </ImageView>
+      <TextField editable="false" layoutX="89.0" layoutY="301.0" prefHeight="32.0" prefWidth="161.0" style="-fx-background-color: #ffffff;" text="1/6/2001">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

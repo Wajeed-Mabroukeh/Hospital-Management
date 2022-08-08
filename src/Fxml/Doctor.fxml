@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="455.0" prefWidth="757.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI">
+  <children>
+    <MenuBar prefHeight="23.0" prefWidth="702.0" VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="User">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#My_Profile" text="My Profile" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" onAction="#Quite" text="Quit" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="439.0" prefWidth="761.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ImageView fitHeight="305.0" fitWidth="805.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/Healthcare-Software-Solution.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutY="266.0" mnemonicParsing="false" onMousePressed="#ControlD" prefHeight="76.0" prefWidth="147.0" style="-fx-background-radius: 10; -fx-background-color: #0592ff;" text="Doctor" textFill="#fcf9f9">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="147.0" layoutY="266.0" mnemonicParsing="false" onMousePressed="#ControlN" prefHeight="76.0" prefWidth="155.0" style="-fx-background-radius: 10; -fx-background-color: #0592ff;" text="Nurse" textFill="#f2efef">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="302.0" layoutY="266.0" mnemonicParsing="false" onMousePressed="#ControlP" prefHeight="76.0" prefWidth="155.0" style="-fx-background-radius: 10; -fx-background-color: #0592ff;" text=" Patient" textFill="#ebe4e4">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutY="352.0" mnemonicParsing="false" onMousePressed="#ControlDe" prefHeight="76.0" prefWidth="147.0" style="-fx-background-radius: 10; -fx-background-color: #0592ff;" text="Department" textFill="#f8f8f8">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="147.0" layoutY="352.0" mnemonicParsing="false" onMousePressed="#ControlMedic" prefHeight="76.0" prefWidth="155.0" style="-fx-background-radius: 10; -fx-background-color: #0592ff;" text="Medicament" textFill="#ebe8e8">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="302.0" layoutY="352.0" mnemonicParsing="false" onMousePressed="#ControlDis" prefHeight="76.0" prefWidth="155.0" style="-fx-background-radius: 10; -fx-background-color: #0592ff;" text="Disease" textFill="#f5f4f4">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="457.0" layoutY="266.0" mnemonicParsing="false" onMousePressed="#Search" prefHeight="76.0" prefWidth="155.0" style="-fx-background-radius: 10; -fx-background-color: #0592ff;" text="Search" textFill="#f6f8f8">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="457.0" layoutY="352.0" mnemonicParsing="false" onMousePressed="#Web" prefHeight="76.0" prefWidth="155.0" style="-fx-background-radius: 10; -fx-background-color: #0592ff;" text="Najah University Hospital" textFill="#f6f8f8">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="612.0" layoutY="266.0" mnemonicParsing="false" onMousePressed="#About" prefHeight="76.0" prefWidth="147.0" style="-fx-background-radius: 10; -fx-background-color: #0592ff;" text="About" textFill="#f6f8f8">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="612.0" layoutY="352.0" mnemonicParsing="false" onMousePressed="#Exit" prefHeight="76.0" prefWidth="147.0" style="-fx-background-radius: 10; -fx-background-color: #0592ff;" text="EXIT" textFill="#f6f8f8">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Button>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

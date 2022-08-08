@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="708.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI">
+   <children>
+      <Label layoutX="35.0" layoutY="23.0" prefHeight="27.0" prefWidth="171.0" text="Edit Disease" textFill="#c94949" textOverrun="CLIP">
+         <font>
+            <Font name="Footlight MT Light" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="148.0" prefHeight="26.0" prefWidth="96.0" text="Scientific Name">
+         <font>
+            <Font name="Ebrima" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="210.0" prefHeight="26.0" prefWidth="88.0" text="Common Name">
+         <font>
+            <Font name="Century" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="SciectificE" layoutX="113.0" layoutY="143.0" prefHeight="32.0" prefWidth="171.0" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="CommonE" layoutX="113.0" layoutY="207.0" prefHeight="32.0" prefWidth="171.0" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="26.0" fitWidth="48.0" focusTraversable="true" layoutX="9.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" smooth="false" style="-fx-image: #0598ff;">
+         <image>
+            <Image url="@../Image/add.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="385.0" fitWidth="434.0" focusTraversable="true" layoutX="320.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" smooth="false" style="-fx-image: #0598ff;">
+         <image>
+            <Image url="@../Image/138189647-heart-disease-icon-vector-outline-heart-disease-sign-isolated-contour-symbol-illustration.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="113.0" layoutY="272.0" mnemonicParsing="false" onMousePressed="#UpdateDI" prefHeight="25.0" prefWidth="77.0" text="Edit" />
+      <Button layoutX="220.0" layoutY="272.0" mnemonicParsing="false" onMousePressed="#ViewDI" prefHeight="25.0" prefWidth="77.0" text="View" />
+   </children>
+</AnchorPane>
